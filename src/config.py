@@ -1,0 +1,18 @@
+# Konfigurasi Kamera
+CAMERA_INDEX = 0
+FRAME_WIDTH = 1280
+FRAME_HEIGHT = 720
+
+# Konfigurasi MediaPipe
+MAX_HANDS = 1
+DETECTION_CONFIDENCE = 0.75
+TRACKING_CONFIDENCE = 0.75
+
+# Palet Warna BGR (OpenCV menggunakan urutan Blue, Green, Red)
+COLOR_BG_DARK = (18, 18, 22)
+COLOR_BORDER = (82, 82, 91)
+COLOR_TEXT_PRIMARY = (250, 250, 250)
+COLOR_TEXT_MUTED = (161, 161, 170)
+COLOR_ACCENT_GREEN = (129, 185, 16)   # Emerald Tactical
+COLOR_ACCENT_AMBER = (11, 158, 245)   # Amber Warning
+COLOR_ACCENT_RED = (68, 68, 239)      # Rose Alert
